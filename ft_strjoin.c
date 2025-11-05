@@ -6,13 +6,14 @@
 /*   By: vs <vs@student.42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/20 14:52:44 by vsudak            #+#    #+#             */
-/*   Updated: 2025/11/04 12:28:18 by vs               ###   ########.fr       */
+/*   Updated: 2025/11/05 11:20:42 by vs               ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 // there is malloc here, watch out!!!
+// also works
 // char	*ft_strjoin(char const *s1, char const *s2)
 // {
 // 	size_t	len1;
@@ -26,7 +27,7 @@
 // 		return (NULL);
 // 	ft_memcpy(d, s1, len1 + 1);
 // 	ft_memcpy(d + len1, s2, len2 + 1);
-// 	d[len1 + len2 + 1] = '\0';
+// 	d[len1 + len2] = '\0';
 // 	return (d);
 // }
 
