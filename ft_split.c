@@ -6,7 +6,7 @@
 /*   By: vs <vs@student.42.fr>                        +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/10/21 16:42:19 by vsudak        #+#    #+#                 */
-/*   Updated: 2025/11/03 17:25:03 by vsudak        ########   odam.nl         */
+/*   Updated: 2025/11/30 13:08:06 by vsudak        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,6 +88,7 @@ char	**ft_split(char const *s, char c)
 		result[i] = (char *)get_word(s, i, c);
 		if (result[i] == NULL)
 		{
+			i--;
 			while (i > 0)
 				free(result[i--]);
 			free(result);
